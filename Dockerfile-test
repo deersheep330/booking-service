@@ -10,7 +10,6 @@ RUN pip install -r requirements.txt
 
 COPY ./booking ./booking
 COPY ./test.py .
-COPY ./wait-for-it.sh .
 
 # Run the command on container startup
 CMD /usr/local/bin/python /home/app/test.py

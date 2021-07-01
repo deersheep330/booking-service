@@ -2,7 +2,7 @@
   {
     "essential": true,
     "name": "booking-container",
-    "memory": 128,
+    "memory": 256,
     "cpu": 128,
     "image": "${image}",
     "environment": [
